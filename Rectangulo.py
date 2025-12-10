@@ -1,4 +1,4 @@
-from FiguraGeometrica import *
+from main import *
 from Color import *
 
 class Rectangulo(FiguraGeometrica, Color):

@@ -14,11 +14,11 @@ Manejo de Dimensiones y Colores: Las figuras geométricas manejan sus dimensione
 
 📂 Estructura del ProyectoLa estructura del código está diseñada para ser modular y fácil de entender
 
-FiguraGeometrica.py: Clase Base (Superclase). Define la estructura fundamental de una figura, incluyendo atributos básicos (ancho, alto, color) y sus métodos getter/setter.
+main.py: Clase Base (Superclase). Define la estructura fundamental de una figura, incluyendo atributos básicos (ancho, alto, color) y sus métodos getter/setter.
 
-Rectangulo.py: Clase hija que hereda de FiguraGeometrica. Extiende la funcionalidad para calcular el área específica de un rectángulo.
+Rectangulo.py: Clase hija que hereda de main. Extiende la funcionalidad para calcular el área específica de un rectángulo.
 
-Cuadrado.py: Clase hija que hereda de FiguraGeometrica. Representa un cuadrado (un tipo de rectángulo con lados iguales) e implementa la lógica de inicialización y cálculo de área.
+Cuadrado.py: Clase hija que hereda de main. Representa un cuadrado (un tipo de rectángulo con lados iguales) e implementa la lógica de inicialización y cálculo de área.
 
 Color.py: Clase auxiliar que puede utilizarse para inicializar y gestionar el atributo de color de las figuras.
 
